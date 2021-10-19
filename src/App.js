@@ -1,24 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+//import Header from "./components/ex8.1/lifeCycle";
+//import Box from "./components/ex8.3/Box";
+import ChuckNorris from "./components/ex12.1/ChuckNorris";
+// import Spinner from "./components/ex9.1/spinner";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click Me
-        </a>
-      </header>
-    </div>
+    <ChuckNorris/>
   );
 }
 
