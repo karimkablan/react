@@ -5,13 +5,15 @@
 //import Q11_1 from "./components/ex11.1/main";
 //import Q11_3 from "./components/ex11.3/main"
 //import DataMassaging from "./components/ex13.1/DataMassaging";
-
-import AApp from "./components/ex13.2/App";
-
+//import Text from "./components/ex18.1/Text";
+//import ToDo from "./components/ex18.2/todo";
+//import Marking from "./components/ex18.4/marking";
+//import FetchStarWars from "./components/ex19.1/FetchStarWars";
+import {WorldCountries} from "./components/ex19.2/WorldCountries";
 
 function App() {
   return (
-  <AApp/>
+    <WorldCountries/>
   );
 }
 
