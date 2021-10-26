@@ -9,11 +9,14 @@
 //import ToDo from "./components/ex18.2/todo";
 //import Marking from "./components/ex18.4/marking";
 //import FetchStarWars from "./components/ex19.1/FetchStarWars";
-import {WorldCountries} from "./components/ex19.2/WorldCountries";
+//import {WorldCountries} from "./components/ex19.2/WorldCountries";
+//import Alogolia from "./components/ex19.3/countries";
+import { Users } from "./components/ex17.1/Users";
+
 
 function App() {
   return (
-    <WorldCountries/>
+    <Users/>
   );
 }
 
